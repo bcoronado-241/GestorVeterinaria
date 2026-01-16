@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="569.0" prefWidth="671.0" style="-fx-background-color: #CCFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="59.0" fitWidth="64.0" layoutX="6.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../ProyectoMuni/ProyectoMuni/src/org/brayancoronado/img/muni.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="502.0" layoutY="38.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="154.0" style="-fx-background-color: #1a9f49; -fx-background-radius: 50;" text="Logout">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <GridPane layoutX="34.0" layoutY="87.0" prefHeight="433.0" prefWidth="602.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="146.79999389648438" minHeight="0.0" prefHeight="14.79999389648438" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="304.8" minHeight="10.0" prefHeight="290.0000061035156" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="106.0" prefWidth="199.0" style="-fx-background-radius: 200; -fx-background-color: #33CCCC;" text="Productos" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="106.0" prefWidth="199.0" style="-fx-background-radius: 200; -fx-background-color: #33CCCC;" text="Usuarios" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="106.0" prefWidth="199.0" style="-fx-background-radius: 200; -fx-background-color: #33CCCC;" text="Mascotas" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <Text fill="#187d3c" layoutX="-51.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-alignment: center;" text="Home" wrappingWidth="242.93678283691406">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="809.0" prefWidth="1096.0" style="-fx-background-color: #CCFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane layoutX="-9.0" layoutY="-3.0" prefHeight="822.0" prefWidth="240.0" style="-fx-background-color: #68ee68;">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="807.0" prefWidth="239.0">
+               <children>
+                  <Button layoutX="28.0" layoutY="373.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="184.0" style="-fx-background-color: #33CCCC;" text="Eliminar" />
+                  <Button layoutX="28.0" layoutY="451.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="184.0" style="-fx-background-color: #33CCCC;" text="ACTUALIZAR" />
+                  <Button layoutX="28.0" layoutY="205.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="184.0" style="-fx-background-color: #33CCCC;" text="AGREGAR" />
+                  <Button layoutX="28.0" layoutY="296.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="184.0" style="-fx-background-color: #33CCCC;" text="EDITAR" />
+                  <Button layoutX="28.0" layoutY="691.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="184.0" style="-fx-background-color: #33CCCC;" text="VOLVER" />
+                  <Button layoutX="28.0" layoutY="533.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="184.0" style="-fx-background-color: #33CCCC;" text="LIMPIAR" />
+                  <Button layoutX="28.0" layoutY="614.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="184.0" style="-fx-background-color: #33CCCC;" text="BUSCAR POR ID" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <TextField layoutX="363.0" layoutY="23.0" prefHeight="49.0" prefWidth="240.0" promptText=" ID USUARIO" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Text layoutX="231.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID Usuario:" wrappingWidth="184.97021484375">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <TableView layoutX="254.0" layoutY="305.0" prefHeight="503.0" prefWidth="820.0" style="-fx-background-color: #33CCCC;">
+         <columns>
+            <TableColumn prefWidth="109.59999084472656" text="ID USUARIO" />
+            <TableColumn minWidth="0.0" prefWidth="143.199951171875" text="NOMBRE" />
+            <TableColumn minWidth="0.0" prefWidth="153.60003662109375" text="APELLIDO" />
+            <TableColumn minWidth="0.0" prefWidth="163.20001220703125" text="DPI" />
+            <TableColumn minWidth="0.0" prefWidth="102.39996337890625" text="EDAD" />
+            <TableColumn minWidth="0.0" prefWidth="152.00006103515625" text="ALIAS" />
+         </columns>
+      </TableView>
+      <TextField layoutX="363.0" layoutY="128.0" prefHeight="49.0" prefWidth="240.0" promptText="NOMBRE" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="363.0" layoutY="217.0" prefHeight="49.0" prefWidth="240.0" promptText="APELLIDOS" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Text layoutX="254.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellido:" wrappingWidth="113.607421875">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="248.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre:" wrappingWidth="113.607421875">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="722.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alias:" wrappingWidth="113.607421875">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="711.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edad:" wrappingWidth="135.607421875">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="705.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DPI:" wrappingWidth="49.607421875">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <TextField layoutX="787.0" layoutY="217.0" prefHeight="49.0" prefWidth="240.0" promptText="ALIAS" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="787.0" layoutY="128.0" prefHeight="49.0" prefWidth="240.0" promptText="EDAD" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="787.0" layoutY="23.0" prefHeight="49.0" prefWidth="240.0" promptText="DPI" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
